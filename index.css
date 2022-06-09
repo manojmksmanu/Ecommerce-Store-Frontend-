@@ -980,6 +980,179 @@ margin: 30px;
     color: red;
 }
 
+/* /////////////login and signup page/////////////// */
+.form-box
+{
+    width: 380px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: #fafafa;
+    padding: 5px;
+    overflow: hidden;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ transition: 0.6s;
+ 
+ /* display: none; */
+}
+.button-box{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+background-color: #161616;
+border-radius: 30px;
+display: flex;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+    .toggle-btn{
+        padding: 10px 30px;
+        cursor: pointer;
+        background: transparent;
+        border: 0px;
+        outline: none;
+        position: relative;
+        font-size: 20px;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+
+    #btn{
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 150px;
+        height: 100%;
+        background: #f81f1f;
+        border-radius: 30px;
+    }
+    .input-group{
+        top: 180px;
+        position: absolute;
+        width: 280px;
+        transition: 0.5s;
+        
+    }
+    .input-field{
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border-left: 0 ;
+        border-right: 0;
+        border-top: 0;
+        border: 1px solid #999;
+        outline: none;
+        background: transparent;
+        
+    }
+    .submit-btn{
+        width: 85%;
+        padding: 10px 30px;
+          cursor:pointer;
+          display: block;
+          border: none;
+          background: #ff0a0a;
+          border-radius: 30px;
+          color: white;
+          font-size: 20px;
+          width: 100%;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .forget-btn{
+        width: 85%;
+        padding: 10px 30px;
+          cursor:pointer;
+          display: block;
+          border: none;
+          background: #ff0a0a;
+          border-radius: 30px;
+          color: white;
+          font-size: 20px;
+          width: 100%;
+          margin-top: 20px;
+    }
+    .check-box{
+        margin: 30px 10px 30px 0;
+    }
+.input-group span{
+    color: #777;
+    font-size: 15px;
+    bottom: 123px;
+    position: absolute;
+}
+#agree{
+    color: #777;
+    font-size: 15px;
+    bottom: 67px;
+    position: absolute;
+}
+.input-group input{
+    padding: 10px;
+    font-size: 18px;
+}
+#login{
+    left:50px
+}
+#signup{
+    left:450px
+}
+#login-page-hide{
+    position: relative;
+    height: 600px;
+    width: 100%;
+  }
+.form-box.hide{
+    display: none;
+}
+#forget-page{
+    /* left: -400px; */
+    width: 380px;
+    height: 550px;
+    position: relative;
+    margin: 6% auto;
+    background: #fafafa;
+    padding: 5px;
+    overflow: hidden;
+    padding: 30px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ transition: 0.6s;
+ display: none;
+}
+#forget-page img{
+    width: 20px;
+    right: 15px;
+    top: 15px;
+  position: absolute;
+}
+#forget-page input{
+   width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px 0;
+    border-left: 0 ;
+    border-right: 0;
+    border-top: 0;
+    border: 1px solid #999;
+    outline: none;
+    background: transparent;  
+}
+
+#down-forget-page{
+margin-top: 50px;
+}
+.forget-btn-box button{
+    width: 100%;
+    padding: 10px 30px;
+      cursor:pointer;
+border: none;
+      background: #ff0a0a;
+      border-radius: 30px;
+      color: white;
+      font-size: 20px;
+      width: 100%;
+      margin-top: 20px;
+}
+
 /* ---------------start media queries------------ */
 @media (max-width:1530px){
     #about-head div h2{
@@ -1391,4 +1564,38 @@ margin-bottom: 30px;
     font-weight: 600px;
     color: #ff7d7d;
 }
+
+
+/* /////////////login and signup page/////////////// */
+.form-box
+{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    margin: 6% auto;
+    background: #fafafa;
+    padding: 10px;
+    overflow: hidden;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ transition: 0.6s;
+ margin-bottom: -50px;
+ 
+ /* display: none; */
+}
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    
+}
+#forget-page{
+    width: 350px;
+    height: 450px;
+}
+#login-page-hide{
+    position: relative;
+    height: 450px;
+    width: 100%;
+  }
 }
