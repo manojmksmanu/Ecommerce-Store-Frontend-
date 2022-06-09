@@ -979,9 +979,7 @@ margin: 30px;
 #subtotal button:hover{
     color: red;
 }
-#cart{
-    overflow-x:scroll ;
-}
+
 /* ---------------start media queries------------ */
 @media (max-width:1530px){
     #about-head div h2{
@@ -1012,6 +1010,9 @@ margin: 30px;
     }
 }
 @media (max-width:1100px){
+    #cart{
+        overflow-x:scroll ;
+    }
     #about-head div h2{
         font-size: 50px;
     }
