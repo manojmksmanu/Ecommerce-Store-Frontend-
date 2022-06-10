@@ -2,7 +2,7 @@ var load = document.getElementById('loading');
 function  myfunction(){
     setTimeout(() => {
         load.style.display='none';
-    }, 4000);
+    }, 1000);
     
     
 }

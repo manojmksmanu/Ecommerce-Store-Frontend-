@@ -6,12 +6,30 @@
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 2, 2);
+}
+
+::selection {
+    background: rgba(255, 0, 0, 0.3);
+}
 #loading{
     width: 100vw;
     height: 100vh;
-    background: url('img/5.gif') no-repeat;
+    background: url('img/6.gif') no-repeat;
+    background-color: black;
     background-position: center;
-    background-size: cover;
+    background-size:cover ;
     z-index: 99999;
   position: fixed;
   
