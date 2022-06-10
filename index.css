@@ -6,7 +6,16 @@
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
 }
-
+#loading{
+    width: 100vw;
+    height: 100vh;
+    background: url('img/5.gif') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 99999;
+  position: fixed;
+  
+}
 h1 {
     font-size: 60px;
     line-height: 64px;
@@ -1598,4 +1607,9 @@ margin-bottom: 30px;
     height: 450px;
     width: 100%;
   }
+}
+
+.hello{
+    position: relative;
+    width: 30px;
 }

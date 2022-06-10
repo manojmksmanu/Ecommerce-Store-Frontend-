@@ -1,3 +1,12 @@
+var load = document.getElementById('loading');
+function  myfunction(){
+    setTimeout(() => {
+        load.style.display='none';
+    }, 4000);
+    
+    
+}
+
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
@@ -12,6 +21,7 @@ const close = document.getElementById('close');
 close.addEventListener('click',() =>{
     nav.classList.remove('active');
 })
+
 
 // var show=document.getElementById('jai');
 // console.log(show);
@@ -35,6 +45,7 @@ var full_form = document.getElementById('final');
 var forgetbtn= document.getElementById('forget-pw');
 var forgetpage= document.getElementById('forget-page');
 var forget_cancel= document.getElementById('forget-cancel');
+
 
 forgetbtn.addEventListener('click',(e)=>{
     e.preventDefault();
