@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="index.css">
     <title>Login/Signup</title>
 </head>
+
 <body>
-   
+
     <section id="header">
         <a href="#"><img class="logo" src="img/RebuiltX_PNG@700x.png" alt=""> </a>
         <div>
@@ -19,142 +21,145 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a class="active"  href="login.html">Login/Signup</a></li>
-                <li class="hide"> <a href="cart.html"><img class="chart-icon" src="img/shopping-icon.png" alt=""></a></li>
+                <li><a class="active" href="login.html">Login/Signup</a></li>
+                <li class="hide"> <a href="cart.html"><img class="chart-icon" src="img/shopping-icon.png" alt=""></a>
+                </li>
             </ul>
         </div>
         <div id="mobile">
             <a href="cart.html"><img class="chart-icon next" src="img/shopping-icon.png" alt=""></a>
             <img id="bar" class="ham" src="img/ham.png" alt="">
         </div>
-            </section>
-            <div id="login-page-hide">
-<div class="form-box " id="final">
-    <div class="button-box">
-        <div id="btn"></div>
-        <button type="button" class="toggle-btn" id="login-btn"> Log In</button>
-        <button type="button" class="toggle-btn"  id="signup-btn">Sign Up</button>
+    </section>
+    <div id="login-page-hide">
+        <div class="form-box " id="final">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" id="login-btn"> Log In</button>
+                <button type="button" class="toggle-btn" id="signup-btn">Sign Up</button>
+            </div>
+
+
+
+
+
+
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id / Email" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box">
+                <span>Remember password</span>
+                <button type="submit" class="submit-btn">
+                    Log In
+                </button>
+                <button class="forget-btn" id="forget-pw">
+                    Forget Password
+                </button>
+
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name / User Id" required>
+                <input type="text" class="input-field" placeholder="Email / Phone" required>
+                <input type="text" class="input-field" placeholder="Create Password" required>
+                <input type="text" class="input-field" placeholder="Enter OTP" required>
+                <input type="checkbox" class="check-box">
+                <span id="agree">I agree to the terms & Conditions</span>
+                <button type="submit" class="submit-btn">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+        <!-- ///////////////forget page////////// -->
+        <div id="forget-page">
+            <img id="forget-cancel" src="img/cancel.png" alt="">
+            <div id="down-forget-page"><input type="text" name="" id="forget-ph/email" placeholder="Enter Phone/Email">
+                <input type="text" name="" id="otp" placeholder="Enter Recieved OTP ">
+            </div>
+
+            <div class="forget-btn-box">
+                <button>Generate OTP</button>
+                <button type="submit"> Submit</button>
+            </div>
+
+        </div>
+
     </div>
 
-   
+
+    <!-- ------------------------news later----------------- -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h3>Sign Up For Newsletter</h3>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="enter your mail">
+            <button class="normal"> Sign Up </button>
+        </div>
+    </section>
 
 
 
- 
-    <form id="login" class="input-group">
-        <input type="text" class="input-field" placeholder="User Id / Email" required>
-        <input type="text" class="input-field" placeholder="Enter Password" required>
-<input type="checkbox" class="check-box">
-<span>Remember password</span>
-<button type="submit" class="submit-btn">
-     Log In
-</button>
-<button  class="forget-btn" id="forget-pw">
-    Forget Password
-</button>
-     
-    </form>
-    <form id="signup" class="input-group">
-        <input type="text" class="input-field" placeholder="User Name / User Id" required>
-        <input type="text" class="input-field" placeholder="Email / Phone" required>
-        <input type="text" class="input-field" placeholder="Create Password" required>
-        <input type="text" class="input-field" placeholder="Enter OTP" required>
-<input type="checkbox" class="check-box">
-<span id="agree">I agree to the terms & Conditions</span>
-<button type="submit" class="submit-btn">
-  Sign Up
-</button>
-    </form>
-</div>
-<!-- ///////////////forget page////////// -->
-<div id="forget-page">
-    <img id="forget-cancel" src="img/cancel.png" alt="">
-    <div id="down-forget-page"><input  type="text" name="" id="forget-ph/email" placeholder="Enter Phone/Email">
-        <input type="text" name="" id="otp" placeholder="Enter Recieved OTP "></div>
 
-<div class="forget-btn-box">
-    <button>Generate OTP</button>
-<button type="submit"> Submit</button>
-</div>
+    <!-- ----------------footer 😊😀------------- -->
 
-</div>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo col-logo" src="img/RebuiltX_PNG@700x.png" alt="">
+            <h3>Contact</h3>
+            <P><strong>Address:</strong> Ganga vihar khora colony Ghaziabad</P>
+            <P><strong>Phone:</strong> 9667328778 / 9667328778</P>
+            <P><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</P>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <img class="icon-img" src="img/i1.png" alt="">
+                    <img class="icon-img" src="img/i2.png" alt="">
+                    <img class="icon-img" src="img/i3.png" alt="">
+                    <img class="icon-img" src="img/github.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Accounts</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
 
-</div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>
+                From App Store or Google Play
+            </p>
+            <div class="row">
+                <img class="pay-img" src="images/img/pay/app.jpg" alt="">
+                <img class="pay-img" src="images/img/pay/play.jpg" alt="">
+            </div>
+            <p>
+                Secured Paymet Gateway
+            </p>
+            <img class="pay" src="images/img/pay/pay.png" alt="">
+
+        </div>
 
 
-<!-- ------------------------news later----------------- -->
-<section id="newsletter" class="section-p1 section-m1">
-    <div class="newstext">
-        <h3>Sign Up For Newsletter</h3>
-        <p>Get E-mail updates about our latest shop and special offers.</p>
+    </footer>
+    <div class="copyright">
+        RebuiltX © 2022
     </div>
-    <div class="form">
-        <input type="text" placeholder="enter your mail" >
-        <button class="normal"> Sign Up </button>
-    </div>
-</section>
-
-
-
-
-<!-- ----------------footer 😊😀------------- -->
-
-<footer class="section-p1">
-<div class="col">
-<img class="logo col-logo" src="img/RebuiltX_PNG@700x.png" alt="">
-<h3>Contact</h3>
-<P><strong>Address:</strong> Ganga vihar khora colony Ghaziabad</P>
-<P><strong>Phone:</strong> 9667328778 / 9667328778</P>
-<P><strong>Hours:</strong> 10:00 - 18:00, Mon-Sat</P>
-<div class="follow">
-<h4>Follow us</h4>
-<div class="icon">
-<img class="icon-img" src="img/i1.png" alt="">
-<img class="icon-img" src="img/i2.png" alt="">
-<img class="icon-img" src="img/i3.png" alt="">
-<img class="icon-img" src="img/github.png" alt="">
-</div>
-</div>
-</div> 
-<div class="col">
-<h4>About</h4>
-<a href="#">About us</a>
-<a href="#">Delivery Information</a>
-<a href="#">Privacy Policy</a>
-<a href="#">Terms & Conditions</a>
-<a href="#">Contact Us</a>
-</div>
-<div class="col">
-<h4>My Accounts</h4>
-<a href="#">Sign in</a>
-<a href="#">View Cart</a>
-<a href="#">Privacy Policy</a>
-<a href="#">Track My Order</a>
-<a href="#">Help</a>
-</div>
-
-<div class="col install">
-<h4>Install App</h4> 
-<p>
-From App Store or Google Play
-</p>
-<div class="row">
-<img class="pay-img" src="images/img/pay/app.jpg" alt="">
-<img class="pay-img" src="images/img/pay/play.jpg" alt="">
-</div>
-<p>
-Secured Paymet Gateway
-</p>
-<img class="pay" src="images/img/pay/pay.png" alt="">
-
-</div>
-
-
-</footer>
-<div class="copyright">
-RebuiltX © 2022
-</div>
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
+
 </html>

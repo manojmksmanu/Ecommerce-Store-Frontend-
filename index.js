@@ -1,27 +1,21 @@
 var load = document.getElementById('loading');
-function  myfunction(){
+function myfunction() {
     setTimeout(() => {
-        load.style.display='none';
+        load.style.display = 'none';
     }, 1000);
-    
-    
 }
 
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
 
+bar.addEventListener('click', () => {
+    nav.classList.add('active');
+});
 
-    bar.addEventListener('click',() =>
-    {
-        nav.classList.add('active');
-    }
-    )
-
-close.addEventListener('click',() =>{
+close.addEventListener('click', () => {
     nav.classList.remove('active');
-})
-
+});
 
 // var show=document.getElementById('jai');
 // console.log(show);
@@ -39,38 +33,36 @@ close.addEventListener('click',() =>{
 var btn = document.getElementById('btn');
 var login_btn = document.getElementById('login-btn');
 var signup_btn = document.getElementById('signup-btn');
-var login_page= document.getElementById('login');
-var signup_page= document.getElementById('signup');
+var login_page = document.getElementById('login');
+var signup_page = document.getElementById('signup');
 var full_form = document.getElementById('final');
-var forgetbtn= document.getElementById('forget-pw');
-var forgetpage= document.getElementById('forget-page');
-var forget_cancel= document.getElementById('forget-cancel');
+var forgetbtn = document.getElementById('forget-pw');
+var forgetpage = document.getElementById('forget-page');
+var forget_cancel = document.getElementById('forget-cancel');
 
-
-forgetbtn.addEventListener('click',(e)=>{
+forgetbtn.addEventListener('click', (e) => {
     e.preventDefault();
-
     forgetpage.style.display = 'block'
     full_form.style.display = 'none';
-    
-})
-forget_cancel.addEventListener('click',()=>{
-    forgetpage.style.display = 'none'
-    full_form.style.display = 'block';
-   
 })
 
-signup_btn.addEventListener('click',()=>{
-    login_page.style.left= "-400px";
-    signup_page.style.left= "50px";
-    btn.style.left="150px";
-console.log('hello')
+forget_cancel.addEventListener('click', () => {
+    forgetpage.style.display = 'none'
+    full_form.style.display = 'block';
 })
-login_btn.addEventListener('click',()=>{
-    login_page.style.left= "50px";
-    signup_page.style.left= "400px";
-    btn.style.left="0px";
-console.log('hello')
+
+signup_btn.addEventListener('click', () => {
+    login_page.style.left = "-400px";
+    signup_page.style.left = "50px";
+    btn.style.left = "150px";
+    console.log('hello')
+})
+
+login_btn.addEventListener('click', () => {
+    login_page.style.left = "50px";
+    signup_page.style.left = "400px";
+    btn.style.left = "0px";
+    console.log('hello')
 })
 
 
@@ -78,20 +70,15 @@ console.log('hello')
 var mainimage = document.getElementById('main-image');
 var smallimage = document.getElementsByClassName('small-image');
 
-smallimage[0].onclick = function(){
+smallimage[0].onclick = function () {
     mainimage.src = smallimage[0].src;
-
 }
-smallimage[1].onclick = function(){
+smallimage[1].onclick = function () {
     mainimage.src = smallimage[1].src;
 }
-smallimage[2].onclick = function(){
+smallimage[2].onclick = function () {
     mainimage.src = smallimage[2].src;
-
 }
-smallimage[3].onclick = function(){
+smallimage[3].onclick = function () {
     mainimage.src = smallimage[3].src;
 }
-
-
-
